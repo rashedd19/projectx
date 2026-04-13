@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - ShopMax</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">ShopMax</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html" class="cart-icon">Cart <span class="cart-count">3</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <h1>Shopping Cart</h1>
+        <p>Review and manage your selected items</p>
+    </section>
+
+    <section class="container">
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <span style="font-size: 2rem;">💻</span>
+                            <span>Pro Laptop 15</span>
+                        </div>
+                    </td>
+                    <td>$1,299.99</td>
+                    <td>1</td>
+                    <td>$1,299.99</td>
+                    <td><a href="#" style="color: var(--secondary);">Remove</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <span style="font-size: 2rem;">🎧</span>
+                            <span>Wireless Headphones</span>
+                        </div>
+                    </td>
+                    <td>$199.99</td>
+                    <td>2</td>
+                    <td>$399.98</td>
+                    <td><a href="#" style="color: var(--secondary);">Remove</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <span style="font-size: 2rem;">⌚</span>
+                            <span>Smart Watch Pro</span>
+                        </div>
+                    </td>
+                    <td>$349.99</td>
+                    <td>1</td>
+                    <td>$349.99</td>
+                    <td><a href="#" style="color: var(--secondary);">Remove</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="cart-summary">
+            <h3>Order Summary</h3>
+            <p style="margin-bottom: 0.5rem;">Subtotal: <strong>$2,049.96</strong></p>
+            <p style="margin-bottom: 0.5rem;">Shipping: <strong>FREE</strong></p>
+            <p style="margin-bottom: 1rem;">Tax (8%): <strong>$163.99</strong></p>
+            <h2 style="margin-bottom: 1.5rem;">Total: $2,213.95</h2>
+            <a href="#" class="btn" style="margin-right: 1rem;">Continue Shopping</a>
+            <a href="#" class="btn">Proceed to Checkout</a>
+        </div>
+
+        <div style="margin-top: 3rem;">
+            <h2 class="section-title">You May Also Like</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">📷</div>
+                    <div class="product-info">
+                        <h3>Camera Pro 4K</h3>
+                        <p class="price">$1,599.99</p>
+                        <a href="cart.html" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🎮</div>
+                    <div class="product-info">
+                        <h3>Gaming Console</h3>
+                        <p class="price">$499.99</p>
+                        <a href="cart.html" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🔊</div>
+                    <div class="product-info">
+                        <h3>Smart Speaker</h3>
+                        <p class="price">$129.99</p>
+                        <a href="cart.html" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">💡</div>
+                    <div class="product-info">
+                        <h3>Smart Bulb Kit</h3>
+                        <p class="price">$79.99</p>
+                        <a href="cart.html" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 ShopMax. All rights reserved.</p>
+    </footer>
+</body>
+</html>
